@@ -1,0 +1,167 @@
+
+.divMainContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.divImgsContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 736px;
+    width: 326px;
+}
+
+.divSofting{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.divMunicipal{
+    display: flex;
+    justify-content: center;
+}
+
+.divSouthworks{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.divSofting img{
+    border-radius: 18px;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.divMunicipal img{
+    border-radius: 18px;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.divSouthworks img{
+    border-radius: 18px;
+    width: 200px;
+    height: 200px;
+   
+}
+
+.Information{
+    display: flex;
+    align-items: flex-start;
+    width: 1022px;
+    justify-content: flex-end;
+}
+
+.h1About{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #33383C;
+    display: flex;    
+    margin-right: 22%;
+}
+
+.Information .self-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.Information .description{
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif ;
+}
+
+
+@media (max-width: 1500px) {
+    .divImgsContainer{
+        height: auto;
+    }
+
+    .divSofting{
+        display: flex;
+        justify-content: center;
+    }
+
+    .divSouthworks{
+        justify-content: center;
+    }
+
+    .Information{
+        width: auto;
+    }
+
+    .h1About{
+        align-self: flex-start;
+    }
+
+    .Information .self-description{
+        max-width: 644px;
+        margin: 0 auto;
+    }
+
+    .Information .description{
+        max-width: 100%;
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 716px){
+    .divSofting {
+        justify-content: center;
+    }
+    .divSofting img{
+        width: 120px;
+        height: 120px;
+    }
+
+    .divMunicipal {
+        justify-content: center;
+    }
+    .divMunicipal img{
+        width: 120px;
+        height: 120px;
+    }
+
+    .divSouthworks {
+        justify-content: center;
+    }
+    .divSouthworks img{
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 500px){
+    .divSofting {
+        justify-content: flex-start;
+    }
+    .divSofting img{
+        width: 120px;
+        height: 120px;
+    }
+
+    .divMunicipal {
+        justify-content: flex-start;
+    }
+    .divMunicipal img{
+        width: 120px;
+        height: 120px;
+    }
+
+    .divSouthworks {
+        justify-content: flex-start;
+    }
+    .divSouthworks img{
+        width: 120px;
+        height: 120px;
+    }
+
+    .h1About{
+        align-self: flex-start;
+    }
+}

@@ -1,0 +1,196 @@
+
+.main{
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+  margin: 5rem auto;
+  width: 78%;
+}
+
+.images{
+  width: 25em;
+  height: 25em;
+  border-radius: 50%;
+  width: auto;
+}
+
+.blue-bg-outer{
+  width: 25em;
+  height: 25em;
+  border-radius: 50%;
+  background: #33383C;
+  display: grid;
+  place-items: center;
+}
+
+.white-bg{
+  width: 21.875em;
+  height: 21.875em;
+  border-radius: 50%;
+  background: #fff;
+  display: grid;
+  place-items: center;
+}
+
+.blue-bg{
+  width: 18.75em;
+  height: 18.75em;
+  border-radius: 50%;
+  background: #33383C;
+}
+
+.blue-bg img{
+  position: relative;
+  width: 100%;
+  border-radius: 50%;
+  height: inherit;
+}
+
+.Information{
+  display: flex;
+  flex-direction: column;
+  align-items: end;    
+  align-self: flex-start;
+  width: auto;
+}
+
+.h1Name{
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #33383C;
+  margin-bottom: 0px;
+  margin-right: 0;
+}
+
+.animated_text h1{
+  -webkit-text-stroke: 1px #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(#33383C, #33383C);
+  -webkit-background-clip: text;
+  background-clip: none;
+  background-position: -500px 0;
+  animation: backcolor 5s linear infinite;
+  margin-bottom: 12px;
+  margin-right: 0;
+  font-size: xx-large;
+}
+
+.social{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.social a{
+  color: #33383C;
+  font-size: 1rem;
+  border: 1px solid #33383C;
+  border-radius: 50%;
+  padding: 0.3rem;
+  text-align: center;
+  width: 27px;
+  height: 25px;
+  display: grid;
+  place-items: center;
+}
+
+.social a:hover{
+  color: #fff;
+  background-color: #33383C;
+  box-shadow: 0 0 20px #33383C;
+  border-color: #33383C;
+  transition: all .3s ease-in-out;
+}
+.downloadButton {
+  height: 50px;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.downloadButton:hover {
+  box-shadow: .5px .5px 150px #252525;
+}
+
+.downloadButton::after {
+  content: "CV";
+  height: 50px;
+  width: 150px;
+  background-color: #33383C;
+  color: #fff;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transform: translateY(50px);
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.downloadButton::before {
+  content: "Download";
+  height: 50px;
+  width: 150px;
+  background-color: #fff;
+  color: #33383C;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transform: translateY(0px) scale(1.2);
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.downloadButton:hover::after {
+  transform: translateY(0) scale(1.2);
+}
+
+.downloadButton:hover::before {
+  transform: translateY(-50px) scale(0) rotate(120deg);
+}
+
+@keyframes backcolor {
+
+  100% {
+      -webkit-text-stroke: 1px #33383C;
+      background-position: 0 0;
+  }
+}
+
+@media(max-width: 980px){
+  
+  .h1Name{
+    -webkit-text-stroke: 1px #000000;
+    color: white;
+    font-weight: 200;
+  }
+  .animated_text h1{
+    margin: 0;
+    width: max-content;
+    margin-bottom: 24px;
+
+    -webkit-text-stroke: 1px #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(#33383C, #33383C);
+  -webkit-background-clip: text;
+  background-clip: none;
+  background-position: -500px 0;
+  animation: backcolor 5s linear infinite;
+  }
+}
