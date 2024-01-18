@@ -20,7 +20,7 @@ export default class Home extends Component {
                 <h1 className="title">Full-Stack Developer</h1>
             </div>
             <div className='divSubtitle'>
-                <h2>Let's talk</h2>
+                <h2>Let's talk...</h2>
             </div>
             <div className="social">
                 <a href="https://github.com/FacuKopech" target="_blank" title="GitHub">
