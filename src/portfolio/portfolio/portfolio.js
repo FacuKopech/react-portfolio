@@ -33,14 +33,24 @@ export default class Portfolio extends Component {
                             </div>
                             <div className="back">
                                 <div className="inner">
-                                    <p></p>
+                                    <p>
+                                        The Digital Communication Notebook project created a dedicated web app for parents to communicate directly 
+                                        with their children's primary school. Parents could send messages, digitally sign notes, and manage attendance. 
+                                        Teachers and the headmaster had tools for communication and maintaining a historical record of students. The system, 
+                                        with a front end in Angular and a back end in .NET Core, aimed to streamline communication and provide administrative 
+                                        features for school staff.<br/>
+                                        <hr></hr>
+                                        You can check the Github Repos <br/>
+                                        <a href='https://github.com/FacuKopech/frontSCC-angular' target='_blank'>HERE</a> - FrontEnd <br/>
+                                        <a href='https://github.com/FacuKopech/backSCC_netcore' target='_blank'>HERE</a> - BackEnd
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="divCard" ontouchstart="this.classList.toggle('hover');">
                         <div className="container">
-                            <div className="front" style={{ background: `url(https://i.pinimg.com/originals/d7/f3/de/d7f3de4da28141e8dee14267627e1e86.jpg) center/455px no-repeat` }}>
+                            <div className="front" style={{ background: `url(https://i.pinimg.com/originals/d7/f3/de/d7f3de4da28141e8dee14267627e1e86.jpg) center/628px no-repeat` }}>
                                 <div className="inner">
                                     <p>Simon Says</p>
                                     <div className='divStackIcons'>
@@ -52,14 +62,23 @@ export default class Portfolio extends Component {
                             </div>
                             <div className="back">
                                 <div className="inner">
-                                    <p></p>
+                                    <p>
+                                        The Simon Says game project offered a challenging experience where players replicated sequences of 
+                                        colored buttons, accompanied by lights and sounds. As players progressed, the game added difficulty by 
+                                        increasing the time limit for each sequence. Player data, including play details, was stored in local storage. 
+                                        Implemented using pure JavaScript, HTML, and CSS, the game provided an engaging and progressively difficult 
+                                        gaming experience.<br/>
+                                        <hr></hr>
+                                        You can check the Github Repo <br/>
+                                        <a href='https://github.com/FacuKopech/simon-dice' target='_blank'>HERE</a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="divCard" ontouchstart="this.classList.toggle('hover');">
                         <div className="container">
-                            <div className="front" style={{ background: `url(https://us.123rf.com/450wm/korolyok/korolyok2111/korolyok211100079/177999855-newspaper-paper-grunge-aged-newsprint-pattern-background-vintage-old-newspapers-template-texture.jpg?ver=6) center/422px no-repeat` }}>
+                            <div className="front" style={{ background: `url(https://us.123rf.com/450wm/korolyok/korolyok2111/korolyok211100079/177999855-newspaper-paper-grunge-aged-newsprint-pattern-background-vintage-old-newspapers-template-texture.jpg?ver=6) center/576px no-repeat` }}>
                                 <div className="inner">
                                     <p>News Page</p>
                                     <div className='divStackIcons'>
@@ -71,7 +90,15 @@ export default class Portfolio extends Component {
                             </div>
                             <div className="back">
                                 <div className="inner">
-                                    <p></p>
+                                    <p>
+                                        The Newspaper Company Design project was a simple webpage showcasing a fictional newspaper company. 
+                                        It demonstrated various fonts, styles, and news sections, serving as a foundational project for HTML and CSS. 
+                                        Additionally, it included a registration view with validation. Developed with JavaScript, HTML, and CSS, 
+                                        the project was a practical exercise in web design.<br/>
+                                        <hr></hr>
+                                        You can check the Github Repo <br/>
+                                        <a href='https://github.com/FacuKopech/LPPA_uai/tree/main/HTML/Actividades_Clases_HTML' target='_blank'>HERE</a>
+                                    </p>
                                 </div>
                             </div>
                         </div>

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../home/home.css';
 
 export default class Home extends Component {
+    
   render() {
     return (
         <div className="main">
@@ -9,7 +10,7 @@ export default class Home extends Component {
                 <div className="blue-bg-outer">
                     <div className="white-bg">
                     <div className="blue-bg">
-                        <img src="copy-removebg-preview.png" alt="" />
+                        <img src="" alt="" />
                     </div>
                     </div>
                 </div>
@@ -43,7 +44,7 @@ export default class Home extends Component {
                 </a>
             </div>
             <br />
-            <a href="Facundo Kopech - Resume 2023.pdf" target="_blank" title='CV' download="Facundo Kopech - Resume 2023.pdf">
+            <a href='' target="_blank" title='CV' download="Facundo Kopech - Resume 2024.pdf">
                 <button className="downloadButton"></button>
             </a>
             </div>

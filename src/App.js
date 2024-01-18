@@ -11,14 +11,11 @@ function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      // Check if the user has scrolled, and set the sticky state accordingly
       setSticky(window.scrollY > 0);
     };
 
-    // Attach the scroll event listener when the component mounts
     window.addEventListener('scroll', handleScroll);
 
-    // Clean up the event listener when the component unmounts
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
