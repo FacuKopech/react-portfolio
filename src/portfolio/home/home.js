@@ -16,7 +16,9 @@ export default class Home extends Component {
                 </div>
             </div>
             <div className="Information">
-            <h1 className='h1Name'>Hi, I'm Facundo</h1>
+            <div className='divNameContainer'>
+                <h1 className='h1Name'>Hi, I'm Facundo</h1>
+            </div>
             <div className="animated_text">
                 <h1 className="title">Full-Stack Developer</h1>
             </div>

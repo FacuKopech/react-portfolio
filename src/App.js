@@ -1,14 +1,15 @@
-import {React, useState, useEffect} from 'react';
+import {React, useState, useEffect, useRef} from 'react';
 import { Route, BrowserRouter, Link, Routes } from 'react-router-dom';
 import './App.css';
 import About from './portfolio/about/about';
 import Skills from './portfolio/skills/skills';
 import Home from './portfolio/home/home';
 import Portfolio from './portfolio/portfolio/portfolio';
+import $ from 'jquery';
 
 function App() {
   const [isSticky, setSticky] = useState(false);
-
+  const $ref = useRef(null);
   useEffect(() => {
     const handleScroll = () => {
       setSticky(window.scrollY > 0);
@@ -20,6 +21,34 @@ function App() {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+
+  useEffect(() => {
+    $($ref.current).on('scroll', function () {
+      if ($(document).scrollTop() > 50) {
+        $('.nav').addClass('affix');
+        console.log('OK');
+      } else {
+        $('.nav').removeClass('affix');
+      }
+    });
+
+    $('.navTrigger').on('click', function () {
+      $(this).toggleClass('active');
+      $("#mainListDiv").toggleClass("show_list");
+      $("#mainListDiv").fadeIn();
+    });
+
+    $('.liElement').on('click', function () {
+      $("#mainListDiv").removeClass("show_list");
+      $('.navTrigger').removeClass('active');
+
+    });
+
+    return () => {      
+      $('.navTrigger').off('click'); 
+    };
+  }, []); 
+
   return (
     <html lang="en">
       <head>        
@@ -46,19 +75,31 @@ function App() {
           <div className="divWelcome">
             <p>Welcome!</p>
           </div>
-          <nav className="navButtons">
-            <Link to="/">
-              <p>Home</p>
-            </Link>
-            <Link to="/about">
-              <p>About</p>
-            </Link>
-            <Link to="/skills">
-              <p>Skills</p>
-            </Link>
-            <Link to="/portfolio">
-              <p>Portfolio</p>
-            </Link>           
+          <nav className="navButtons nav">
+            <div id='mainListDiv' className='main_list'>
+              <div className='navlinks'>
+                <div className='divLinksContainer'>
+                <Link className='liElement' to="/"> 
+                  <p>Home</p>
+                </Link>
+                <Link className='liElement' to="/about">
+                  <p>About</p>
+                </Link>
+                <Link className='liElement' to="/skills">
+                  <p>Skills</p>
+                </Link>
+                <Link className='liElement' to="/portfolio">
+                  <p>Portfolio</p>
+                </Link>    
+                </div>   
+              </div>
+            </div>
+           
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
         </nav>
         </header>
         <section>

@@ -19,7 +19,7 @@ export default class About extends Component {
                     <img src="https://openqube.io/wp-content/uploads/2016/12/southworks-squarelogo-1567711527273-200x200.png" alt="" />
                 </div>
             </div>
-            <div className="Information">
+            <div className="divAbout">
                 <div className="self-description">
                     <h1 className='h1About'>About</h1>
                     <div className="description">

@@ -5,7 +5,7 @@ export default class Portfolio extends Component {
   render() {
     return (
         <div className='divContainer'>
-            <div className="divTitle">
+            <div className="divTitleProjects">
                <h2>Personal Projects</h2>
             </div>
             <div className="divCardsContainer">          

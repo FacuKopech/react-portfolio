@@ -50,7 +50,7 @@
    
 }
 
-.Information{
+.divAbout{
     display: flex;
     align-items: flex-start;
     width: 1022px;
@@ -65,13 +65,13 @@
     margin-right: 22%;
 }
 
-.Information .self-description{
+.divAbout .self-description{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
 
-.Information .description{
+.divAbout .description{
     font-weight: 500;
     font-family: 'Poppins', sans-serif ;
 }
@@ -91,7 +91,7 @@
         justify-content: center;
     }
 
-    .Information{
+    .divAbout{
         width: auto;
     }
 
@@ -99,12 +99,12 @@
         align-self: flex-start;
     }
 
-    .Information .self-description{
+    .divAbout .self-description{
         max-width: 644px;
         margin: 0 auto;
     }
 
-    .Information .description{
+    .divAbout .description{
         max-width: 100%;
         margin-left: auto;
     }
@@ -164,4 +164,32 @@
     .h1About{
         align-self: flex-start;
     }
+}
+
+
+
+@media (max-width: 400px){
+
+    .divSofting img{
+        width: 85px;
+        height: 85px;
+    }
+
+    .divMunicipal img{
+        width: 85px;
+        height: 85px;
+    }
+
+
+    .divSouthworks img{
+        width: 85px;
+        height: 85px;
+    }
+
+
+    .divWelcome p{
+        margin-left: initial;
+    transform: rotate(270deg);
+    }
+
 }
