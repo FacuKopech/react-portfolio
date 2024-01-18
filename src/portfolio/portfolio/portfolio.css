@@ -187,7 +187,7 @@
 }
 
 .back .inner p{
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .back .inner hr{
@@ -254,29 +254,24 @@
     transition: color 600ms;
 }
 
-@media screen and (max-width: 64rem) {
-    .divCard {
-        width: calc(33.333333% - 2rem);
+@media screen and (max-width: 1500px) {
+    .back .inner p{
+        font-size: 12px;
     }
 }
-
-@media screen and (max-width: 48rem) {
-    .divCard {
-        width: calc(50% - 2rem);
-        margin-bottom: 24px;
-    }
-}
-
-@media screen and (max-width: 32rem) {
+@media screen and (max-width: 1300px) {
     .divCard {
         width: 100%;
         margin: 0 0 2rem 0;
     }
+    .back .inner p{
+        font-size: 15.2px;
+    }
 }
-@media screen and (max-width: 1600px) and (min-width: 500px) {
+@media screen and (max-width: 600px) and (min-width: 500px) {
 
     .back .inner p{
-        font-size: 11.2px;
+        font-size: 14.2px;
     }
 }
 @media (max-width: 700px) {
@@ -292,7 +287,21 @@
     .divTitleProjects{
         width: 28%;
     }
+    .back .inner p{
+        font-size: 13px;
+    }
+}
 
+@media (max-width: 400px) {
+    .back .inner p{
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 300px) {
+    .back .inner p{
+        font-size: 10px;
+    }
 }
 
 @media (max-width: 360px) {
@@ -300,12 +309,13 @@
     .divTitleProjects{
         display: flex;
         justify-content: flex-end;
+        
     }
 
     .divTitleProjects h2{
         transform: rotate(270deg);
         height: fit-content;
-        margin-top: 0px;
+        margin-top: 50px;
     }
 
 }
