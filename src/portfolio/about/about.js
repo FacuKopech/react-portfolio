@@ -34,10 +34,8 @@ export default class About extends Component {
                         My very first developer position was in Softing S.R.L, followed by Municipal Bank of Rosario, and finally, now I am working <br />
                         at Southworks.<br />
                         <br />
-                        All of these experiences allowed me to grow and learn a variety of technologies and methodologies. This is why right now I have a <br />
-                        clear goal, which is to deepen my knowledge in FrontEnd technologies and become a Senior Full-Stack developer. All of these experiences <br />
-                        allowed me to grow and learn a variety of technologies and methodologies. This is why right now I have a clear goal, which is to deepen <br />
-                        my knowledge in FrontEnd technologies and become a Senior Full-Stack developer. <br />
+                        All of these experiences allowed me to grow and learn a variety of technologies and methodologies. <br />
+                        This is why right now I have a clear goal, which is to deepen my knowledge in FrontEnd technologies and become a Senior Full-Stack developer.<br/>
                         <br />
                         I consider myself hard worker, responsible and always wanting to learn more about the technologies I am interested in. I am looking for a company <br />
                         which would give me the opportunity to grow in everything related to FE, which is my motivation to be looking for this change. <br />
