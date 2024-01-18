@@ -38,7 +38,7 @@ export default class About extends Component {
                         This is why right now I have a clear goal, which is to deepen my knowledge in FrontEnd technologies and become a Senior Full-Stack developer.<br/>
                         <br />
                         I consider myself hard worker, responsible and always wanting to learn more about the technologies I am interested in. I am looking for a company <br />
-                        which would give me the opportunity to grow in everything related to FE, which is my motivation to be looking for this change. <br />
+                        which would give me the opportunity to grow in everything related to FrontEnd, which is my motivation to be looking for this change. <br />
                         <br />
                         Said that, I appreciate very much your time for reading about me and my professional interests.
                     </div>
