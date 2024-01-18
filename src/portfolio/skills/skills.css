@@ -16,15 +16,22 @@
   
   .animated-text {  
     animation: rotate-text-up 1.5s;
+    color: white;
   }
 .divTechDescription{
+    display: flex;
+    flex-wrap: wrap;
     width: 22%;
+}
+
+.centered{
+    align-content: center;
 }
 .divOptionsContainer{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    width: 56%;
+    width: 64%;
 }
 
 .divTitleContainer{
@@ -66,9 +73,7 @@
     display: flex;
     flex-direction: row;
     align-items: stretch;
-    overflow: hidden;
-    min-width: 600px;
-    max-width: 900px;
+    overflow: hidden;    
     width: calc(100% - 100px);
     height: 330px;    
     margin-right: 12px;
@@ -111,7 +116,7 @@
 .option.active {
     flex-grow: 10000;
     transform: scale(1);
-    max-width: 600px;
+    max-width: 485px;
     margin: 0px;
     border-radius: 40px;
     background-size: auto 100%;    
@@ -129,6 +134,7 @@
     flex-grow: 1;
     border-radius: 30px;    
     filter: blur(2px);
+    background-color: white !important;  
 }
 
 .option:not(.active) .label {
@@ -169,4 +175,43 @@
     margin-left: 10px;
     color: white;
     font-weight: bold;
+}
+
+@media (max-width: 1000px){
+   
+    .option.active{
+        background-size: 140px !important;
+    }
+    .optionsSet{
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: repeat(auto-fit, minmax(min(11.75rem, 100%), 1fr));
+        margin-right: 0;
+        width: 100%;
+        min-width: initial;
+    max-width: initial;
+   }
+  }
+
+@media (max-width: 730px){
+    .option.active{
+        background-size: 100px !important;
+    }
+    .optionsSet{
+        grid-template-columns: repeat(auto-fit, minmax(min(6.75rem, 100%), 1fr));
+    }
+    
+}
+
+@media (max-width: 430px){
+    .option.active{
+        background-size: 50px !important;
+    }
+    .optionsSet{
+        grid-template-columns: repeat(auto-fit, minmax(min(3.75rem, 100%), 1fr));
+    }
+
+    .option.active .label {        
+        display: none;
+    }
 }

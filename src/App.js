@@ -1,12 +1,28 @@
-import React from 'react';
+import {React, useState, useEffect} from 'react';
 import { Route, BrowserRouter, Link, Routes } from 'react-router-dom';
 import './App.css';
 import About from './portfolio/about/about';
-import Contact from './portfolio/contact/contact';
 import Skills from './portfolio/skills/skills';
 import Home from './portfolio/home/home';
+import Portfolio from './portfolio/portfolio/portfolio';
 
 function App() {
+  const [isSticky, setSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      // Check if the user has scrolled, and set the sticky state accordingly
+      setSticky(window.scrollY > 0);
+    };
+
+    // Attach the scroll event listener when the component mounts
+    window.addEventListener('scroll', handleScroll);
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   return (
     <html lang="en">
       <head>        
@@ -15,7 +31,8 @@ function App() {
         <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://facukopech.github.io/my-portfolio/; 
           img-src 'self' https://openqube.io/ https://polotecnologico.net https://media.licdn.com https://cdn.jsdelivr.net https://pngset.com https://static.vecteezy.com
           https://w7.pngwing.com https://tl.vhv.rs https://raw.githubusercontent.com https://tl.vhv.rs https://static-00.iconduck.com https://cdn-icons-png.flaticon.com
-          https://www.svgrepo.com https://icons8.com;  
+          https://www.svgrepo.com https://icons8.com https://seeklogo.com https://upload.wikimedia.org https://www.fixedbuffer.com https://www.sovereignconsult.com
+          https://miro.medium.com;  
           font-src 'self' https://fonts.gstatic.com
           https://cdn.jsdelivr.net data:; "/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"/>
@@ -28,7 +45,7 @@ function App() {
         <title>Facundo Kopech - Portfolio</title>
       </head>
       <body>
-        <header>
+        <header className={isSticky ? 'sticky' : ''}>
           <div className="divWelcome">
             <p>Welcome!</p>
           </div>
@@ -42,9 +59,9 @@ function App() {
             <Link to="/skills">
               <p>Skills</p>
             </Link>
-            <Link to="/contact">
-              <p>Contact</p>
-            </Link>
+            <Link to="/portfolio">
+              <p>Portfolio</p>
+            </Link>           
         </nav>
         </header>
         <section>
@@ -52,7 +69,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/skills" element={<Skills />} />
-            <Route path="/contact" element={<Contact />} />                    
+            <Route path="/portfolio" element={<Portfolio />} />
           </Routes>          
         </section>
         <script src="index.js"></script>

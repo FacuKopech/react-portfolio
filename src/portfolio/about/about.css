@@ -10,7 +10,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    height: 736px;
+    height: 1000px;
     width: 326px;
 }
 
@@ -77,7 +77,7 @@
 }
 
 
-@media (max-width: 1500px) {
+@media (max-width: 1900px) {
     .divImgsContainer{
         height: auto;
     }

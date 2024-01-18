@@ -9,6 +9,14 @@ header{
   justify-content: space-between;
   width: 100%;
 }
+
+.sticky{
+  position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background: linear-gradient(90deg, #33383C 32%, #ffffff 10%); 
+}
 .divWelcome p{
   font-size: 1.3rem;
   font-weight: 800;

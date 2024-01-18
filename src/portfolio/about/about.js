@@ -23,24 +23,26 @@ export default class About extends Component {
                 <div className="self-description">
                     <h1 className='h1About'>About</h1>
                     <div className="description">
-                        My name is Facundo Kopech. I'm a Ssr Backend developer and a Junior Frontend developer.<br />
+                        My name is Facundo Kopech. I am both a Frontend and Backend developer, but I am looking forward to grow as a Frontend dev,<br />
+                        given that with the experience I had I noticed that I highly prefer this field for my development career.<br />
                         <br />
-                        I'm 24 years old and I'm currently in my fifth and last year of the Software Engineer career.<br />
-                        I started my career at the Catholic University of Santiago del Estero (U.C.S.E) and I'll be<br />
-                        graduating in Universidad Abierta Interamericana (U.A.I) soon.<br />
+                        I am 24 years old and I am currently in my fifth and last year of the Software Engineer career. I am planing on obtaining <br />
+                        my degree by the end of this year. <br />
                         <br />
 
-                        I've been immersed in the world of software development since 2019 working for various companies, <br />
-                        always under the position of web development, with a primary focus on Backend development. My very first <br />
-                        work experience was in Softing S.R.L, a software company located in Rosario, Argentina. Later on, I worked <br />
-                        in the Municipal Bank of Rosario. At both jobs, I was under the web development position. It wasn't until 2022 <br />
-                        that I started working at SOUTHWORKS, which is the company I'm currently working at, as a Software Engineer (DEV). <br />
+                        I started working as a developer at the age of 19 under the position of web developer, with a primary focus on Backend. <br />
+                        My very first developer position was in Softing S.R.L, followed by Municipal Bank of Rosario, and finally, now I am working <br />
+                        at Southworks.<br />
                         <br />
-                        I've enjoyed every step of the way in my first 5 years of work experience so far, and learned a lot of things, including <br />
-                        the fact that I would like to deepen my knowledge in FrontEnd technologies, which is why my goal is to <br />
-                        become a Senior Full-Stack developer. <br />
+                        All of these experiences allowed me to grow and learn a variety of technologies and methodologies. This is why right now I have a <br />
+                        clear goal, which is to deepen my knowledge in FrontEnd technologies and become a Senior Full-Stack developer. All of these experiences <br />
+                        allowed me to grow and learn a variety of technologies and methodologies. This is why right now I have a clear goal, which is to deepen <br />
+                        my knowledge in FrontEnd technologies and become a Senior Full-Stack developer. <br />
                         <br />
-                        I consider myself a hard worker, responsible and always wanting to learn more about the technologies I'm interested in.
+                        I consider myself hard worker, responsible and always wanting to learn more about the technologies I am interested in. I am looking for a company <br />
+                        which would give me the opportunity to grow in everything related to FE, which is my motivation to be looking for this change. <br />
+                        <br />
+                        Said that, I appreciate very much your time for reading about me and my professional interests.
                     </div>
                 </div>
             </div>

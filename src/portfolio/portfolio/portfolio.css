@@ -1,0 +1,23 @@
+
+.divMainContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.divTitleContainer{
+    display: flex;
+    width: initial;
+}
+
+.divTitleContainer h2{
+    color: white;
+}
+
+.divProjects{
+    display: flex;
+    width: 40%;
+}
+.divProjectsTitle h2{
+    color: #33383C;
+}

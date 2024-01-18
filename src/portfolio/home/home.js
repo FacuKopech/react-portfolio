@@ -19,6 +19,9 @@ export default class Home extends Component {
             <div className="animated_text">
                 <h1 className="title">Full-Stack Developer</h1>
             </div>
+            <div className='divSubtitle'>
+                <h2>Let's talk</h2>
+            </div>
             <div className="social">
                 <a href="https://github.com/FacuKopech" target="_blank" title="GitHub">
                 <i className="bi bi-github"></i>
@@ -40,7 +43,7 @@ export default class Home extends Component {
                 </a>
             </div>
             <br />
-            <a href="Facundo Kopech - Resume 2023.pdf" target="_blank" download="Facundo Kopech - Resume 2023.pdf">
+            <a href="Facundo Kopech - Resume 2023.pdf" target="_blank" title='CV' download="Facundo Kopech - Resume 2023.pdf">
                 <button className="downloadButton"></button>
             </a>
             </div>
