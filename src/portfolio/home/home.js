@@ -10,7 +10,7 @@ export default class Home extends Component {
                 <div className="blue-bg-outer">
                     <div className="white-bg">
                     <div className="blue-bg">
-                        <img src="" alt="" />
+                        <img src="https://raw.githubusercontent.com/FacuKopech/react-portfolio/main/public/profilePhoto.png" alt="" />
                     </div>
                     </div>
                 </div>
@@ -44,7 +44,7 @@ export default class Home extends Component {
                 </a>
             </div>
             <br />
-            <a href='' target="_blank" title='CV' download="Facundo Kopech - Resume 2024.pdf">
+            <a href='https://github.com/FacuKopech/react-portfolio/raw/main/public/Facundo%20Kopech%20-%20Resume%202024.pdf' target="_blank" title='CV' download="Facundo Kopech - Resume 2024.pdf">
                 <button className="downloadButton"></button>
             </a>
             </div>
