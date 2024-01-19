@@ -71,10 +71,7 @@ function App() {
         <title>Facundo Kopech - Portfolio</title>
       </head>
       <body>
-        <header className={isSticky ? 'sticky' : ''}>
-          <div className="divWelcome">
-            <p>Welcome!</p>
-          </div>
+        <header className={isSticky ? 'sticky' : ''}>          
           <nav className="navButtons nav">
             <div id='mainListDiv' className='main_list'>
               <div className='navlinks'>
