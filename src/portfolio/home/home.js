@@ -10,7 +10,7 @@ export default class Home extends Component {
                 <div className="blue-bg-outer">
                     <div className="white-bg">
                     <div className="blue-bg">
-                        <img src="C:\Users\facuk\Downloads\IMG20240119111422.jpg" alt="" />
+                        <img src="https://raw.githubusercontent.com/FacuKopech/react-portfolio/main/public/IMG20240119111422-removebg-preview.png" alt="" />
                     </div>
                     </div>
                 </div>
