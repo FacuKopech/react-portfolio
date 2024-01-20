@@ -22,6 +22,12 @@ export default class Home extends Component {
             <div className="animated_text">
                 <h1 className="title">Full-Stack Developer</h1>
             </div>
+            <div className='divIntroduction'>
+                <p>
+                    This is where my coding journey unfolds. 
+                    Explore my projects, and if you're as excited about code as I am... <br/>
+                </p>
+            </div>
             <div className='divSubtitle'>
                 <h2>Let's talk...</h2>
             </div>

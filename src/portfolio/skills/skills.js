@@ -43,7 +43,7 @@ export default function Skills() {
     {
       subLabel: 'Elit ut aliquam purus sit',
       iconClass: 'fas fa-walking',
-      backgroundUrl: 'https://www.fixedbuffer.com/wp-content/uploads/2018/09/EFCore.png',
+      backgroundUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWY6XG3t94PxBtbOoXYCN9yte4qAiyQwjYA4sABvaqSUehBVvKrsyyS0-NY0g_arraH6A&usqp=CAU',
       title: 'Entity Framework',
       description: 'I have been a C# developer since 2019',
       iconLabel: 'EF'
