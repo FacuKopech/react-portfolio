@@ -11,10 +11,8 @@ header{
 }
 
 .sticky{
-  position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 999;
+  display: flex;
+  justify-content: flex-end;
     background: linear-gradient(90deg, #33383C 32%, #ffffff 10%); 
 }
 .divWelcome p{
@@ -91,6 +89,7 @@ header{
 @media screen and (max-width:768px) {
   .navTrigger {
       display: block;
+      right: 40px;
   }
   .nav .main_list {
       width: 100%;
