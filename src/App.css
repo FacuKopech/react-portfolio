@@ -13,7 +13,7 @@ header{
 .sticky{
   position: fixed;
     top: 0;
-    width: 100%;
+    width: 91.3%;
     z-index: 999;
     background: linear-gradient(90deg, #33383C 32%, #ffffff 10%); 
 }
@@ -68,10 +68,6 @@ header{
   justify-content: space-evenly;
 }
 
-section{
-  display: flex;
-    justify-content: center;
-}
 
 @media (max-width: 980px){
 
@@ -139,6 +135,14 @@ section{
     color: #fff;
    
   }
+}
+
+@media(max-width:400px) {
+
+  .nav .show_list{
+    width: 51%;
+  }
+  
 }
 
 

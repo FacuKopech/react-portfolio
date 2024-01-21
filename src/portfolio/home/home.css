@@ -2,10 +2,9 @@
 .main{
   display: flex;
   justify-content: space-around;
-  align-content: center;
+  align-content: end;
   flex-wrap: wrap;
   margin: 5rem 1rem auto;
-  width: 75%;
 }
 
 .images{
@@ -52,15 +51,22 @@
   flex-direction: column;
   align-items: center;    
   align-self: flex-start;
-  width: auto;
+  width: 60%;
+}
+
+.divTextsContainer{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  width: inherit;
 }
 
 .h1Name{
   font-size: 2.5rem;
   font-weight: 600;
   color: #33383C;
-  margin-bottom: 0px;
-  margin-right: 0;
+  
 }
 
 .animated_text h1{
@@ -76,21 +82,16 @@
   margin-bottom: 12px;
   margin-right: 0;
   font-size: xx-large;
+  margin-top: initial;
 }
 
 .divIntroduction{
   display: flex;
-  width: 38%;
+  width: inherit;
 }
 
 .divIntroduction p {
   font-family: 'Poppins', sans-serif;
-}
-
-.divSubtitle{
-  display: flex;
-    justify-content: flex-end;
-    margin-right: 26px;
 }
 
 .social{
@@ -187,22 +188,8 @@
 }
 
 
-@media(max-width: 800px){
-  
- .divIntroduction{
-  width: 56%;
- }
-
-}
 @media(max-width: 980px){
-  .Information{
-    align-items: end;
-  }
-  .h1Name{
-    -webkit-text-stroke: 1px #000000;
-    color: white;
-    font-weight: 200;
-  }
+
   .animated_text h1{
     margin: 0;
     width: max-content;
@@ -220,12 +207,27 @@
   }
 }
 
+@media(max-width: 1200px){
+  .main{
+    margin: 1rem 1rem auto;
+  }
+
+  .divIntroduction{
+    width: 100%;
+  }
+}
+
+@media(max-width:890px){
+  .divTextsContainer{
+    align-content: flex-start;
+  }
+}
+
 @media(max-width: 570px){
 
   .h1Name{
     font-size: 28px;
     display: flex;
-    justify-content: flex-end;
     margin-bottom: 20px;
   }
 
@@ -234,33 +236,18 @@
   }
  }
 
-
-@media(max-width: 870px){
-  
+ @media(max-width: 450px){
   .animated_text{
-    display: flex;
-    justify-content: flex-end;
+    width: 157%;
   }
+ }
+
+ @media(max-width: 400px){
  
-
-}
-
-@media(max-width: 420px){
-  .divIntroduction{
-    width: 68%;
-  }
-}
-@media(max-width: 400px){
-  
- .divNameContainer{
-  display: flex;
-  justify-content: flex-end;
+  .Information{
+    margin-left: 20px;
+   }
  }
 
-}
 
-@media(max-width: 270px){
- .h1Name{
-   font-size: 24px;   
- }
- }
+

@@ -16,7 +16,8 @@ export default class Home extends Component {
                 </div>
             </div>
             <div className="Information">
-            <div className='divNameContainer'>
+                <div className='divTextsContainer'>
+                <div className='divNameContainer'>
                 <h1 className='h1Name'>Hi, I'm Facundo</h1>
             </div>
             <div className="animated_text">
@@ -25,12 +26,14 @@ export default class Home extends Component {
             <div className='divIntroduction'>
                 <p>
                     This is where my coding journey unfolds. 
-                    Explore my projects, and if you're as excited about code as I am... <br/>
+                    Explore my projects, and if you like what you see... <br/>
                 </p>
             </div>
             <div className='divSubtitle'>
                 <h2>Let's talk...</h2>
             </div>
+                </div>
+            
             <div className="social">
                 <a href="https://github.com/FacuKopech" target="_blank" title="GitHub">
                 <i className="bi bi-github"></i>
