@@ -7,6 +7,13 @@
   margin: 5rem 1rem auto;
 }
 
+.divSubMain{
+  display: flex;
+    width: 72%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
 .images{
   width: 25em;
   height: 29em;
@@ -190,6 +197,9 @@
 
 @media(max-width: 980px){
 
+  .divSubMain{
+    width: 100%;
+  }
   .animated_text h1{
     margin: 0;
     width: max-content;
@@ -205,6 +215,7 @@
   background-position: -500px 0;
   animation: backcolor 5s linear infinite;
   }
+
 }
 
 @media(max-width: 1200px){

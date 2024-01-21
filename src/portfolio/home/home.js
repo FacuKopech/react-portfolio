@@ -6,6 +6,7 @@ export default class Home extends Component {
   render() {
     return (
         <div className="main">
+            <div className='divSubMain'>
             <div className="images">
                 <div className="blue-bg-outer">
                     <div className="white-bg">
@@ -58,6 +59,7 @@ export default class Home extends Component {
             <a href='https://github.com/FacuKopech/react-portfolio/raw/main/public/Facundo%20Kopech%20-%20Resume%202024.pdf' target="_blank" title='CV' download="Facundo Kopech - Resume 2024.pdf">
                 <button className="downloadButton"></button>
             </a>
+            </div>
             </div>
         </div>
     );
