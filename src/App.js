@@ -57,8 +57,10 @@ function App() {
         <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://facukopech.github.io/my-portfolio/; 
           img-src 'self' https://openqube.io/ https://polotecnologico.net https://media.licdn.com https://cdn.jsdelivr.net https://pngset.com https://static.vecteezy.com
           https://w7.pngwing.com https://tl.vhv.rs https://raw.githubusercontent.com https://tl.vhv.rs https://static-00.iconduck.com https://cdn-icons-png.flaticon.com
-          https://www.svgrepo.com https://icons8.com https://seeklogo.com https://upload.wikimedia.org https://www.fixedbuffer.com https://www.sovereignconsult.com
-          https://miro.medium.com https://i.pinimg.com https://thumbs.dreamstime.com https://us.123rf.com https://github.com https://encrypted-tbn0.gstatic.com;  
+          https://www.svgrepo.com https://icons8.com https://seeklogo.com https://upload.wikimedia.org https://www.sovereignconsult.com
+          https://miro.medium.com https://i.pinimg.com https://thumbs.dreamstime.com https://us.123rf.com https://github.com https://encrypted-tbn0.gstatic.com
+          https://icon-library.com https://swiftlet.co.th https://logospng.org https://ajeetchaulagain.com https://kelmass.com https://miro.medium.com
+          https://www.liblogo.com https://cdn.worldvectorlogo.com;          
           font-src 'self' https://fonts.gstatic.com
           https://cdn.jsdelivr.net data:; "/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"/>

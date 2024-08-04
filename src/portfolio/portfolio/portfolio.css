@@ -36,6 +36,10 @@
     height: 384px;
 }
 
+.movieTheaterCard{
+    margin-bottom: 4px;
+}
+
 .container {
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
