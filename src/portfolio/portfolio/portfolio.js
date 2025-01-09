@@ -24,9 +24,9 @@ export default class Portfolio extends Component {
                     <div className='divStackIcons'>
                       <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/1024px-.NET_Core_Logo.svg.png'></img>
                       <img src='https://miro.medium.com/v2/resize:fit:591/1*4HIU0YdDkj0dmGySVC5D_g.png'></img>
-                      <img src='https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png'></img>
+                      <img src='https://setecompu.com/wp-content/uploads/2018/07/C-Sharp.png'></img>
                       <img src='https://www.svgrepo.com/show/354420/swagger.svg'></img>
-                      <img src='https://seeklogo.com/images/S/sql-logo-C370DEA066-seeklogo.com.png'></img>
+                      <img src='https://pnghq.com/wp-content/uploads/pnghq.com-sql-server-download-png-w-3-334x350.png'></img>
 
                     </div>
                   </div>
@@ -42,7 +42,7 @@ export default class Portfolio extends Component {
                       <hr></hr>
                       You can check the Github Repos <br />
                       <a href='https://github.com/FacuKopech/frontSCC-angular' target='_blank'>HERE</a> - FrontEnd <br />
-                      <a href='https://github.com/FacuKopech/backSCC_netcore' target='_blank'>HERE</a> - BackEnd
+                      <a href='https://github.com/FacuKopech/backSCCD_netcore' target='_blank'>HERE</a> - BackEnd
                     </p>
                   </div>
                 </div>

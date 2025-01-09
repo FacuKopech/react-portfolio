@@ -25,65 +25,51 @@ export default function Skills() {
     {
       subLabel: 'Elit ut aliquam purus sit',
       iconClass: 'fas fa-walking',
-      backgroundUrl: 'https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png',
+      backgroundUrl: 'https://setecompu.com/wp-content/uploads/2018/07/C-Sharp.png',
       title: 'C#',
-      description: '',
       iconLabel: 'C#'
-
     },
     {
       subLabel: 'Arcu cursus vitae congue mauris',
       iconClass: 'fas fa-snowflake',
       backgroundUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/1024px-.NET_Core_Logo.svg.png',
       title: '.NET',
-      description: 'I have been a C# developer since 2019',
       iconLabel: '.NET'
-
     },
     {
       subLabel: 'Elit ut aliquam purus sit',
       iconClass: 'fas fa-walking',
       backgroundUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWY6XG3t94PxBtbOoXYCN9yte4qAiyQwjYA4sABvaqSUehBVvKrsyyS0-NY0g_arraH6A&usqp=CAU',
       title: 'Entity Framework',
-      description: 'I have been a C# developer since 2019',
       iconLabel: 'EF'
-
     },
     {
       subLabel: 'Arcu cursus vitae congue mauris',
       iconClass: 'fas fa-snowflake',
       backgroundUrl: 'https://www.svgrepo.com/show/354420/swagger.svg',
       title: 'Swagger',
-      description: 'I have been a C# developer since 2019',
       iconLabel: 'SW'
-
     },
     {
       subLabel: 'Elit ut aliquam purus sit',
       iconClass: 'fas fa-walking',
       backgroundUrl: 'https://www.svgrepo.com/show/354202/postman-icon.svg',
       title: 'Postman',
-      description: 'I have been a C# developer since 2019',
       iconLabel: 'PM'
-
     },
     {
      subLabel: 'Arcu cursus vitae congue mauris',
       iconClass: 'fas fa-snowflake',
-      backgroundUrl: 'https://seeklogo.com/images/S/sql-logo-C370DEA066-seeklogo.com.png',
+      backgroundUrl: 'https://pnghq.com/wp-content/uploads/pnghq.com-sql-server-download-png-w-3-334x350.png',
       title: 'SQL',
-      description: 'I have been a C# developer since 2019',
       iconLabel: 'SQL'
-
     },    
     {
       subLabel: 'Arcu cursus vitae congue mauris',
       iconClass: 'fas fa-snowflake',
       backgroundUrl: 'https://www.sovereignconsult.com/wp-content/uploads/2020/03/RestApi.png',
       title: 'RESTFull API',
-      description: 'I have been a C# developer since 2019',
       iconLabel: 'API'
-
     }   
   ];
 
@@ -93,15 +79,13 @@ export default function Skills() {
       iconClass: 'fas fa-walking',
       backgroundUrl: 'https://www.svgrepo.com/show/353396/angular-icon.svg',
       title: 'Angular',
-      description: 'I have been a C# developer since 2019',
       iconLabel: 'A'
     },
     {
       subLabel: 'Elit ut aliquam purus sit',
       iconClass: 'fas fa-walking',
-      backgroundUrl: 'https://seeklogo.com/images/R/react-logo-7B3CE81517-seeklogo.com.png',
+      backgroundUrl: 'https://static-00.iconduck.com/assets.00/react-icon-1024x1024-wwxwlds8.png',
       title: 'React',
-      description: 'I have been a C# developer since 2019',
       iconLabel: 'R'
     },
     {
@@ -109,36 +93,28 @@ export default function Skills() {
       iconClass: 'fas fa-walking',
       backgroundUrl: 'https://www.svgrepo.com/show/349419/javascript.svg',
       title: 'JavaScript',
-      description: 'I have been a C# developer since 2019',
       iconLabel: 'JS'
-
     },
     {
       subLabel: 'Arcu cursus vitae congue mauris',
       iconClass: 'fas fa-snowflake',
       backgroundUrl: 'https://www.svgrepo.com/show/349540/typescript.svg',
       title: 'TypeScript',
-      description: 'I have been a C# developer since 2019',
       iconLabel: 'TS'
-
     },
     {
       subLabel: 'Elit ut aliquam purus sit',
       iconClass: 'fas fa-walking',
       backgroundUrl: 'https://www.svgrepo.com/show/452228/html-5.svg',
       title: 'HTML',
-      description: 'I have been a C# developer since 2019',
       iconLabel: 'HTML'
-
     },
     {
       subLabel: 'Arcu cursus vitae congue mauris',
       iconClass: 'fas fa-snowflake',
       backgroundUrl: 'https://www.svgrepo.com/show/452185/css-3.svg',
       title: 'CSS',
-      description: 'I have been a C# developer since 2019',
       iconLabel: 'CSS'
-
     }    
   ];
 
@@ -146,17 +122,17 @@ export default function Skills() {
     {
       subLabel: 'Elit ut aliquam purus sit',
       iconClass: 'fas fa-walking',
-      backgroundUrl: 'https://seeklogo.com/images/G/github-logo-7880D80B8D-seeklogo.com.png',
+      backgroundUrl: 'https://cdn-icons-png.flaticon.com/512/25/25231.png',
       title: 'GitHub',
-      description: 'I have been a C# developer since 2019',
+      
       iconLabel: 'GH'
     },
     {
       subLabel: 'Elit ut aliquam purus sit',
       iconClass: 'fas fa-walking',
-      backgroundUrl: 'https://seeklogo.com/images/G/git-logo-CD8D6F1C09-seeklogo.com.png',
+      backgroundUrl: 'https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png',
       title: 'Git',
-      description: 'I have been a C# developer since 2019',
+      
       iconLabel: 'Git'
     } 
   ];
@@ -167,15 +143,15 @@ export default function Skills() {
       iconClass: 'fas fa-walking',
       backgroundUrl: 'https://miro.medium.com/v2/resize:fit:400/0*KpzqUReoWU_DEwb5.png',
       title: 'SCRUM',
-      description: 'I have been a C# developer since 2019',
+      
       iconLabel: 'S'
     },
     {
       subLabel: 'Elit ut aliquam purus sit',
       iconClass: 'fas fa-walking',
-      backgroundUrl: 'https://seeklogo.com/images/J/jira-logo-29D82276E3-seeklogo.com.png',
+      backgroundUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrb84R83l6mWa_fhIj47sctMrcrCyoJpYDGg&s',
       title: 'JIRA',
-      description: 'I have been a C# developer since 2019',
+      
       iconLabel: 'Jira'
     } 
   ];
@@ -184,17 +160,17 @@ export default function Skills() {
     {
       subLabel: 'Elit ut aliquam purus sit',
       iconClass: 'fas fa-walking',
-      backgroundUrl: 'https://seeklogo.com/images/A/amazon-web-services-aws-logo-6C2E3DCD3E-seeklogo.com.png',
+      backgroundUrl: 'https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png',
       title: 'AWS',
-      description: 'I have been a C# developer since 2019',
+      
       iconLabel: 'AWS'
     },
     {
       subLabel: 'Elit ut aliquam purus sit',
       iconClass: 'fas fa-walking',
-      backgroundUrl: 'https://seeklogo.com/images/M/microsoft-azure-logo-2575D39E82-seeklogo.com.png',
+      backgroundUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-azure-logo-icon-download-in-svg-png-gif-file-formats--microsoft-destination-brand-logos-pack-icons-1583129.png?f=webp&w=256',
       title: 'Azure',
-      description: 'I have been a C# developer since 2019',
+      
       iconLabel: 'AZ'
     } 
   ];

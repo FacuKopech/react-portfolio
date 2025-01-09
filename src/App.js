@@ -60,7 +60,8 @@ function App() {
           https://www.svgrepo.com https://icons8.com https://seeklogo.com https://upload.wikimedia.org https://www.sovereignconsult.com
           https://miro.medium.com https://i.pinimg.com https://thumbs.dreamstime.com https://us.123rf.com https://github.com https://encrypted-tbn0.gstatic.com
           https://icon-library.com https://swiftlet.co.th https://logospng.org https://ajeetchaulagain.com https://kelmass.com https://miro.medium.com
-          https://www.liblogo.com https://cdn.worldvectorlogo.com;          
+          https://www.liblogo.com https://cdn.worldvectorlogo.com https://setecompu.com https://pnghq.com https://git-scm.com https://toppng.com
+          https://download.logo.wine https://banner2.cleanpng.com https://cdn.iconscout.com;          
           font-src 'self' https://fonts.gstatic.com
           https://cdn.jsdelivr.net data:; "/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"/>

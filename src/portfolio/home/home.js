@@ -56,7 +56,7 @@ export default class Home extends Component {
                 </a>
             </div>
             <br />
-            <a href='https://github.com/FacuKopech/react-portfolio/raw/main/public/Facundo%20Kopech%20-%20Resume%202024.pdf' target="_blank" title='CV' download="Facundo Kopech - Resume 2024.pdf">
+            <a href='https://github.com/FacuKopech/react-portfolio/raw/main/public/Facundo%20Kopech%20Resume.pdf' target="_blank" title='CV' download="Facundo Kopech -  2024.pdf">
                 <button className="downloadButton"></button>
             </a>
             </div>
