@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../home/home.css';
-import './profPhotoCopy.png'
+
 export default class Home extends Component {
     
   render() {
